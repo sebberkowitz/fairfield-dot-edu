@@ -719,7 +719,8 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
 
 	#top-nav-container { border-bottom: 1px solid #b00915; overflow: hidden; padding: 15px 0 5px 0; }
 	#top-nav-container ul { margin: 0; }
-	#top-nav-container li a { color: #460000; font-size: 12px; text-decoration: none; }
+/*	#top-nav-container li a { color: #460000; font-size: 12px; text-decoration: none; }*/
+	#top-nav-container li a { color: #000000; font-size: 12px; text-decoration: none;text-shadow:0px 0px 5px #e61236 }
 	#top-nav-container li a:hover { color: #fff; }
 
 	#news-cal-nav { float: left; list-style: none; margin: 0; padding: 0; width: 260px; }
@@ -916,11 +917,11 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
 			#audience-content .tab-pane .spotlight .block > a { display: block; float: left; width: 95px; }
 			#audience-content .tab-pane .spotlight .block img { border: 2px solid transparent; border-radius: 50%; transition: border-color .2s linear; -moz-transition: border-color .2s linear; -webkit-transition: border-color .2s linear; }
 			#audience-content .tab-pane .spotlight .block img:hover { border-color: #c8102e; }
-			
+
 		#audience-content .tab-pane .spotlight .top-block { margin-left: 270px }
 		#audience-content .tab-pane .spotlight .mid-block { margin: 40px 0 40px 300px }
 		#audience-content .tab-pane .spotlight .bottom-block { margin-left: 270px }
-		
+
 	#audience-content .tab-pane .profile-overview { float: left; margin: 0 50px 30px 0; max-width: 420px; }
 	#audience-content .tab-pane	.profile-overview h4 { font-size: 20px; }
 
@@ -1324,10 +1325,10 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
 	.twitter-feed { padding-top: 30px; }
 	#feed-left-col { min-height: 80px; width: 95px; }
 	.twitter-feed .tweet { margin-left: 110px; }
-	
+
 	#audience-content .tab-pane .spotlight .block > a { float: none; margin: 0 auto 15px auto; }
-	#audience-content .tab-pane .spotlight .block .description { margin: 0; }	
-	
+	#audience-content .tab-pane .spotlight .block .description { margin: 0; }
+
 }
 
 /* TerminalFour Additions */
@@ -1361,7 +1362,7 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
- 
+
 .video-container iframe,
 .video-container object,
 .video-container embed {
@@ -1396,5 +1397,3 @@ div#alert-fairfield strong{
 font-weight:700;
 text-transform:uppercase;
 }
-
-
