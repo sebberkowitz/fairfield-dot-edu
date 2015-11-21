@@ -1156,7 +1156,7 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
 
 
 @media screen and (max-width: 959px) {
-	#top-nav-container { padding: 15px 0 10px 0; }
+	#top-nav-container { padding: 15px 0 5px 0; }
 
 	#news-cal-nav { float: left; width: auto; }
 	#audience-nav { float: right; text-align: left; }
@@ -1165,7 +1165,6 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
 	#news-cal-nav li { padding: 0 5px 0 0; }
 	#audience-nav li { padding: 0 5px 0 0; }
 
-	#search-btn { left: 10px; position: relative; top: 13px; }
 
 	#main-container > .callout-nav { top: -50px; }
 
@@ -1186,7 +1185,7 @@ table-hover tbody tr.info:hover > td { background-color: #c4e3f3; }
 @media screen and (max-width: 915px) {
 	#main-nav { float: none; margin: 50px 0 0 -20px; }
 	#main-nav li a { padding: 15px 20px; }
-
+	#search-btn { left: 10px; position: relative; top: 13px; }
 	.profile { border-bottom: 1px solid #ddd8cf; float: none; margin-bottom: 30px; padding-bottom: 20px; width: auto; }
 
 	.accordion.alt-style .callout-nav { clear: both; position: relative; right: auto; bottom: auto; width: auto; }
